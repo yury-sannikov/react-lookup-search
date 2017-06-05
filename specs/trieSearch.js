@@ -81,14 +81,21 @@ describe('Trie Search', function() {
                 rangeWordsWithDiceDistance(words, ['brasilian', 'meer'])
                 .map( w => w.word)
             );
-            console.log(result);
+
             expect(result).to.eql([
                 'Brazilian Merganser',
                 'Brasilia Tapaculo',
-                'Brazilian Tinamou',
+                'Brazilian Tanager',
                 'Brazilian Teal',
                 'Brazilian Ruby',
-                'Brazilian Tanager']);
+                'Brazilian Tinamou',
+                'East Brazilian Chachalaca',
+                'Moorea Sandpiper',
+                'Common Murre',
+                'Thick-billed Murre',
+                'Serra do Mar Tyrannulet',
+                'Serra do Mar Tyrant-Manakin',
+                'Moorea Reed-Warbler']);
         })
 
     })
